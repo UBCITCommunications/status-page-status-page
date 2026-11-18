@@ -1,0 +1,18 @@
+# Local GA4 traffic data: never commit (see ga4/README.md)
+ga4/*
+!ga4/README.md
+*.ga4.*
+*.ga4
+
+# GA4 exports dropped in the repo by accident
+**/*Pages_and_screens*.csv
+**/*Traffic_acquisition*.csv
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Data repository checked out by the refresh workflow
+collected/
